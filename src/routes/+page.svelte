@@ -29,9 +29,9 @@
 <header>
     <h1>Loja de Celulares</h1>
     <nav>
-        <a href="#produtos">Produtos</a>
-        <a href="#sobre">Sobre Nós</a>
-        <a href="#contato">Contato</a>
+        <a href="#">Produtos</a>
+        <a href="#">Sobre Nós</a>
+        <a href="#">Contato</a>
     </nav>
 </header>
 
@@ -60,7 +60,7 @@
             {/each}
             <button class="whatsapp" on:click={enviarWhatsApp}>Finalizar Compra no WhatsApp</button>
         {/if}
-    </section>J
+    </section>
 </main>
 
 <footer>
